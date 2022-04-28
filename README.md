@@ -1,6 +1,6 @@
 # About scaffoldpyscript.py
 
-`scaffoldpyscript.py` is a script for creating a Python3 script.  These scripts are intended to aid programmers and may reside in the /usr/bin for ease of use.
+`scaffoldpyscript.py` is a script for creating a Python3 script that functions like a shell script.  These scripts are intended to aid programmers and may reside in the /usr/bin for ease of use.  
 
 # Installing scaffoldpyscript.py in Linux
 
