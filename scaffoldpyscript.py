@@ -92,7 +92,6 @@ def create_script_file(script_name):
         fp.write('\n')
         fp.write('\n')
         fp.write("if __name__ ='__main__':")
-
     print(colors.yellow | f'  File {script_name} created!')
 
 if __name__ == '__main__':
