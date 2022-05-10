@@ -67,7 +67,7 @@ def show_outro_text():
      print(colors.orchid | '⠀⠀⠀⠀⠛⢿⣿⣿⣿⣷⢦⣄⣀⡀⠤⣤⣤⣀⣀⣬⣿⣿⣿⣿⣿⣿⣿⠟⠁')
      print(colors.orchid | '⠀⠀⠀⢠⣴⣿⣿⣿⣿⣿⣦⣭⣷⣶⣿⣿⡿⠿⠟⠋⠁⠉⠛⠛⠿⠋⠁')
      print(colors.blue | '==*== Remember to use "source .venv/bin/activate" to see options to start the venv! ==*==')
-     print(colors.blue | '==*== Remember to use "pip3 freeze" to write dependences to requirements.txt ==*==')
+     print(colors.blue | '==*== Remember to use "pip3 freeze > requirements.txt" to write dependences to requirements.txt ==*==')
 
 def create_venv_folder():
      command = local['python3']['-m', 'venv', '.venv']
